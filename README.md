@@ -6,7 +6,7 @@
 - Php
 - Mysql
 - Laravel
-- Postman
+- [Download Postman collection](https://github.com/edonaHajredinaj/StockManagement-API/blob/master/StockManagement.postman_collection.json)
     
 
 #### Database Tables
@@ -160,25 +160,47 @@ The requests body:
 ## The Code Challenge
 
 Create a REST API for Product stock and sales management.
+
 Create a database with the following tables:
+
 - Stock
+
 - Products
+
 - Sales
+
 Create table using migrations.
+
 Fill Product table with data beforehand (2 random products) while using Seeds.
+
 Create table columns in such a way that it seems reasonable to you to contain each table.
+
 Stock contains data for all the products and quantity for that product.
+
 Products contain data for the products such as: id of the product, name, type etc.
+
 In Sales data is stored for the sold products.
+
 When a product is sold, the stock for that product should be reduced.
+
 You are not limited in these tables, you can create other helper tables, if you need.
+
 Create Endpoints for CRUD operations for each table,
+
 `GET api/stock`: returns all products from Stock
+
 `POST api/stock` : creates data in Stock
+
 `PUT api/stock`: updates Stock
+
 `DELETE api/stock`: removes data from Stock
+
 The same CRUD counts for `Products` and for `Stock`.
+
 The project should be done in Laravel 8.
+
 To test the REST-API you may use POSTMAN, INSOMNIA etc.
-At the end explain in a .txt file the way you technically did the project and for how long did it take you to finish.
+
+At the end explain in a .txt file the way you technically did the project and for how long did it took you to finish.
+
 The final project is sent as .rar or you can put it in a public repository and send us the link for access.
