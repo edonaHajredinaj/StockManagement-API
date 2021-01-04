@@ -148,11 +148,60 @@ The requests body:
 
 - `GET stocks` returns all stocks
 
+```
+[
+  {
+    "id": 1,
+    "product_id": 1,
+    "quantity": 976,
+    "created_at": "2021-01-03T20:37:47.000000Z",
+    "updated_at": "2021-01-03T22:08:46.000000Z"
+  },
+  {
+    "id": 2,
+    "product_id": 2,
+    "quantity": 950,
+    "created_at": "2021-01-03T20:37:47.000000Z",
+    "updated_at": "2021-01-03T20:37:47.000000Z"
+  }
+]
+```
+
 - `GET stocks/{id}` returns stock by id
 
 - `POST stocks` saves a new stock by the product id and quantity
 
+```
+[
+  {
+    "key": "product_id",
+    "value": "4",
+    "description": ""
+  },
+  {
+    "key": "quantity",
+    "value": "2000",
+    "description": ""
+  }
+]
+```
+
 - `PUT stocks` updates the stock with the new quantity
+
+```
+[
+  {
+    "key": "product_id",
+    "value": "4",
+    "description": ""
+  },
+  {
+    "key": "quantity",
+    "value": "2500",
+    "description": ""
+  }
+]
+```
 
 - `DELETE stocks` deletes stock by id
     
